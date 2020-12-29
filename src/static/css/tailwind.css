@@ -85,6 +85,22 @@ letter-spacing: 1px;
 line-height: normal; */
 }
 
+.enews-cta {
+  padding: 2em 0;
+  background-color: #1b3557;
+}
+
+.enews-h2 {
+  /* Style for "SIGN UP FO" */
+color: #ffffff;
+font-family: "Montserrat", sans-serif;
+font-size: 38px;
+font-weight: 700;
+font-style: italic;
+text-align: left;
+text-transform: uppercase;
+}
+
 .applications-section {
   padding: 5em 0;
 }
