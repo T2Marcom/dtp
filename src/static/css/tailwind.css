@@ -97,3 +97,79 @@ footer {
   font-weight: 300;
   font-family: "acumin pro"
 }
+
+.gradient-bar {
+  height: 27px;
+  width: 100%;
+  background: rgb(208,32,39);
+  background: linear-gradient(90deg, rgba(208,32,39,1) 0%, rgba(202,48,46,1) 12%, rgba(47,141,205,1) 50%, rgba(0,83,142,1) 100%);
+}
+
+/* Contact Page Styles */
+
+.contact-section {
+  padding: 5em 0;
+}
+
+.contact-h3 {
+  /* Style for "Get in Tou" */
+ 
+  color: #1b3557;
+  font-family: "Montserrat";
+  font-size: 33px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "Get in Tou" */
+  letter-spacing: 0.28px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.contact-h3::after {
+  content: "";
+  bottom: -20px;
+  left: 0;
+  width: 68px;
+  height: 3px;
+  background-color: #1b3557;
+  position: absolute;
+}
+
+.eyebrow-title-contact {
+  /* Style for "Contact Us" */
+  color: #a5a5a5;
+  font-family: "Acumin Pro";
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  letter-spacing: 3.1px;
+}
+
+.contact-section p {
+  /* Style for "Lorem ipsu" */
+  color: #a5a5a5;
+  font-family: "Acumin Pro";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.contact-section h4 {
+  /* Style for "Our Addres" */
+  color: #1b3557;
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.sub-title-contact {
+  /* Style for "Directions" */
+  color: #1b3557;
+  font-family: "Acumin Pro";
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 15px !important;
+}
