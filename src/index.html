@@ -39,7 +39,59 @@ path: home
 </section>
 
 <section class="pre-apps">
-  
+
+</section>
+
+<section class="applications-section">
+  <div class="container">
+    <div id="app">
+      <h2 class="about-intro-h2" style="text-align: center;"><span>APPLICATIONS</span></h2>
+      <div class="filter-choices">
+        <span v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')">ALL</span>
+        <span  v-bind:class="{ active: currentFilter === 'Automotive' }" v-on:click="setFilter('Automotive')">Automotive</span>
+        <span  v-bind:class="{ active: currentFilter === 'Cold Chain' }" v-on:click="setFilter('Cold Chain')">Cold Chain</span>
+        <span  v-bind:class="{ active: currentFilter === 'Medical' }" v-on:click="setFilter('Medical')">Medical</span>
+        <span  v-bind:class="{ active: currentFilter === 'Electronics' }" v-on:click="setFilter('Electronics')">Electronics</span>
+        <span  v-bind:class="{ active: currentFilter === 'Opto-Electric' }" v-on:click="setFilter('Opto-Electric')">Opto-Electronic</span>
+        <span  v-bind:class="{ active: currentFilter === 'Battery' }" v-on:click="setFilter('Battery')">Battery</span>
+      </div>
+      <div class="row">
+        
+          <div v-if="currentFilter === project.category || currentFilter === 'ALL'" v-bind:key="project.category" v-for="project in projects" class="col-md-4 mb-3">
+            <a href="/applications"><img v-bind:src="project.image"></a>
+          </div>
+          
+        
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container">
+    <div id="app">
+      <div class="title-container">
+        <div>
+          <h3 class="title">
+            Our Projects
+          </h3>
+        </div>
+        <div class="filter-choices">
+          <span v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')">ALL</span>
+          <span  v-bind:class="{ active: currentFilter === 'ART' }" v-on:click="setFilter('ART')">ART</span>
+          <span  v-bind:class="{ active: currentFilter === 'WORKSHOPS' }" v-on:click="setFilter('WORKSHOPS')">WORKSHOPS</span>
+          <span  v-bind:class="{ active: currentFilter === 'FUN' }" v-on:click="setFilter('DOODLES')">DOODLES</span>
+        </div>
+      </div>
+    
+      <transition-group class="projects" name="projects" >
+        <div class="project" v-if="currentFilter === project.category || currentFilter === 'ALL'" v-bind:key="project.title" v-for="project in projects">
+          <div class="project-image-wrapper">
+            <img class="project-image" v-bind:src="project.image">
+            <div class="gradient-overlay"></div>
+            
+          </div>
+        </div>
+      </transition-group>
+    </div>
+  </div> -->
 </section>
 
 <!-- <div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">

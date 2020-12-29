@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/wmx8evd.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2efb9b94fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     {% if prism == true %}
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
@@ -44,6 +45,27 @@
           });
       });
       
+      </script>
+      <script>
+        new Vue({
+          el: '#app',
+          data: {
+            currentFilter: 'ALL',
+            projects: [
+              {image: "/static/img/automotive-app.png", category: 'Automotive'},
+              {image: "/static/img/cold-chain-app.png", category: 'Cold Chain'},
+              {image: "https://via.placeholder.com/500", category: 'Medical'},
+              {image: "https://via.placeholder.com/500", category: 'Electronics'},
+              {image: "https://via.placeholder.com/500", category: 'Opto-Electric'},
+              {image: "https://via.placeholder.com/500", category: 'Battery'},
+            ]
+          },
+          methods: {
+            setFilter: function(filter) {
+              this.currentFilter = filter;
+            }
+          }
+        })
       </script>
   </body>
 </html>
