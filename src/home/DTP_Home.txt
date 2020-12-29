@@ -1,0 +1,9 @@
+<!-- Hero copy-->
+*Advancing Thermoelectrics</h1>
+**A new approach to solid-state thermal management</h2>
+
+<!-- Intro -->
+If you think thermoelectric technology has reached its limits, think again. Our patented *distributed transport properties* (DTP) approach to thermoelectric systems promises dramatic increases in heating and cooling efficiency and capacity. Our advances are making electric-based, solid-state thermal management an efficient, sustainable candidate for large-scale thermal management applications.</p>
+
+<!-- CTA. Point to technology page-->
+Learn more about our technology [icon] (/our-technology)
