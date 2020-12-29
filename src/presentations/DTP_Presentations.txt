@@ -1,0 +1,16 @@
+
+
+##Presentations
+Crane, D. T. (2020, Jan. 30). Distributed Transport Properties. Thermal Energy Recovery Refrigeration and Management ERC Planning Grant Workshop, Arlington, Virginia, United States. 
+
+Bell, L. E. (2019, Oct. 24). Opportunities, Limitations and Challenges to the Broad Commercialization of Thermoelectric Technology. Presentation at Birck Nanotechnology Center at Purdue University, West Lafayette, Indiana, United States. https://nanohub.org/resources/31558 
+
+Crane, D.T. (2019, Aug. 8). Numerical analysis of thermoelectric performance achieving maximum temperature difference in cooling in a single stage device through combined enhancements featuring distributed transport properties with variable leg cross-sectional. Advancements in Thermal Management, Denver, Colorado, United States. https://www.thermalconference.com/ 
+
+Bell, L. E. (2019, Aug. 7). Optimally distributed transport properties for highest performance thermoelectric devices. Advancements in Thermal Management, Denver, Colorado, United States. https://www.thermalconference.com/ 
+
+Crane, D. T. (2014, Jul.). A System-Level Approach to Thermoelectric Material Optimization as published in the Journal of Electronic Materials (June 2015, Vol. 44, Issue Number 6). International Conference on Thermoelectrics, Nashville, Tennessee, United States. https://ict2014.its.org/web.ornl.gov/sci/theory/ict2014/index.html 
+
+Crane, D. T. (2011, Jul.). Validating Steady-State and Transient Modeling Tools for High Power Density Thermoelectric Generators (as published in the Journal of Electronic Materials, June 2012, V Number 6, pp. 1524-1534). International Conference on Thermoelectrics, Traverse City, Michigan, United States. https://www.its.org/content/ict2011-30th-international-conference-thermoelectrics 
+
+Crane, D. T. (2010, Jun.). An Introduction to System Level Steady-State and Transient Modeling and Optimization of High Power Density Thermoelectric Generator Devices Made of Segmented Thermoelectric Elements (as published in the Journal of Electronic Materials, Vol. 40, Issue 5, pp. 561 569). International Conference on Thermoelectrics, Shanghai, China. https://ict2010.its.org/ 

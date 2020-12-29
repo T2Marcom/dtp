@@ -1,0 +1,14 @@
+##Selected Publications 
+Crane, D. T., Bell, L. E. (2020). Maximum temperature difference in a single-stage thermoelectric device through distributed transport properties. International Journal of Thermal Sciences, 154, 106404. https://doi.org/10.1016/j.ijthermalsci.2020.106404 
+
+Bell, L. E. (2019). Optimally Distributed Transport Properties Can Produce Highest Performance Thermoelectric Systems. Physica Status Solidi (a), 216(22), 1900562. DOI: 10.1002/pssa.201900562 
+
+Heremans, J. P., Dresselhaus, M. S., Bell, L. E., & Morelli, D. T. (2013). When thermoelectrics reached the nanoscale. Nature Nanotechnology, 8(7), 471-473. DOI: 10.1038/nnano.2013.129 
+
+Crane, D. T. (July 2013). Automotive Waste Heat Recovery Using a Thermoelectric Generator. In Takenobu Kajikawa (Ed.), Thermoelectric Power Generation System Technology. Japan. 
+
+Crane, D. T., & Hendricks, T. J. (April 2012). Thermoelectric Energy Recovery Systems: Thermal, Thermoelectric, and Structural Considerations. In D. M. Rowe (Ed.), Modules, Systems, and Applications in Thermoelectrics. Boca Raton FL: CRC Press. 
+
+Bell, L. E. (2008). Cooling, heating, generating power, and recovering waste heat with thermoelectric systems. Science, (321), 1457-1461. DOI: 10.1126/science.1158899 
+
+Crane, D. T. (pending). Thermoelectric Applications in Passenger Vehicles. In Ryoji Funahashi (Ed.), Thermoelectric Energy Conversion: Theories and Mechanisms, Materials, Devices, and Applications. 
