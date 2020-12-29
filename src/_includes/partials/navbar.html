@@ -1,21 +1,73 @@
-<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
-        <!--Logo etc-->
-        <div class="flex items-center">
-            <a href="/" class="text-indigo-500 font-bold text-lg">
-                Logo</a>
+<div class="header-nav" style="background-color: #1b3557;height: 39px; width: 100%;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p style="color: #cecece;"><i class="fas fa-map-marker-alt"></i> &nbsp;1819 N. Grand Oaks Avenue, Altadena, CA 91001</p>
+            </div>
+            <div class="col">
+                <p style="color: #cecece;"><i class="fas fa-phone-alt"></i>&nbsp;800-834-9906</p>
+            </div>
+            <div class="col">
+                <p style="color: #cecece;"><i class="fas fa-envelope"></i>&nbsp;sales@dtpthermoelectrics.com</p>
+            </div>
+            <div class="col">
+                <i class="fab fa-linkedin-in"></i>&nbsp;&nbsp;<i class="fab fa-twitter"></i>&nbsp;&nbsp;<i class="fas fa-rss"></i>
+            </div>
         </div>
+    </div>
+    
+</div>
+
+<!-- <div class="{{ 'lg:fixed' if path == 'home' }} w-full">
+    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"> -->
+        <!--Logo etc-->
+        <!-- <div class="flex items-center">
+            <a href="/" class="text-indigo-500 font-bold text-lg"><img style="max-width: 200px" src="/static/img/DTPThermoelectrics_Logo2020_Blue.png.png"></a>
+        </div> -->
 
         <!--Toggle button (hidden on large screens)-->
-        <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
+        <!-- <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
             <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
                 <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
                 <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
             </svg>
-        </button>
+        </button> -->
+
+        
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/"><div class="flex items-center">
+                        <a href="/" class="text-indigo-500 font-bold text-lg"><img style="max-width: 334px; width: 100%" src="/static/img/DTPThermoelectrics_Logo2020_Blue.png.png"></a>
+                    </div></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      {% if navigation.items %}
+                      <ul class="navbar-nav mr-auto">
+                        {% for item in navigation.items %}
+                        <li class="nav-item active">
+                          <a class="nav-link" href="{{ item.url }}">{{ item.text }} <span class="sr-only">(current)</span></a>
+                        </li>
+                        {% endfor %}
+                        
+                      </ul>
+                      {% endif %}
+                      <div>
+                        <i class="fas fa-search"></i>
+                      </div>
+                      <!-- <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form> -->
+                    </div>
+                </div>
+            </nav>
+      
 
         <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
+        <!-- <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
 
             {% if navigation.items %}
 
@@ -28,6 +80,6 @@
                 </ul>
 
             {% endif %}
-        </div>
-    </nav>
-</div>
+        </div> -->
+    <!-- </nav>
+</div> -->

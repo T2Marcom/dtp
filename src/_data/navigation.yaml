@@ -1,9 +1,13 @@
 items:
   - text: Home
-    url: "#"
-  - text: Technology
-    url: "#"
+    url: "/"
+  - text: Our Technology
+    url: "/our-technology"
   - text: Applications
+    url: "/applications"
+  - text: Resources
     url: "#"
-  - text: Blog
-    url: /blog
+  - text: About
+    url: "/about"
+  - text: Contact
+    url: "/contact-us"
