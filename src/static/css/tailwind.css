@@ -4,13 +4,26 @@
 
 /*Your Custom CSS Goes here*/
 
-h1 {
+p {
+  font-family: "Acumin Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
 }
 
 h3 {
   @apply text-2xl font-bold mb-3;
-}
+} */
 
 /* Syntax Highlighting*/
 
@@ -91,12 +104,7 @@ height:135px;
   line-height: normal;
 }
 
-footer {
-  background-color: #1b3557;
-  color: white;
-  font-weight: 300;
-  font-family: "acumin pro"
-}
+
 
 .gradient-bar {
   height: 27px;
@@ -105,10 +113,43 @@ footer {
   background: linear-gradient(90deg, rgba(208,32,39,1) 0%, rgba(202,48,46,1) 12%, rgba(47,141,205,1) 50%, rgba(0,83,142,1) 100%);
 }
 
+/* Footer Styles */
+
+.pre-footer-section {
+  padding: 3em 0 2.7em;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+}
+
+.pre-footer-section p {
+  margin-bottom: 1px;
+  color: #464646;
+}
+
+.pre-footer-section i {
+  border-radius: 100%;
+  background-color: #1b3557;
+  padding: 3px;
+  color: white;
+  font-size: 11px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 20px;
+  line-height: 11px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1b3557;
+  color: white;
+  font-weight: 300;
+  font-family: "acumin pro"
+}
+
 /* Contact Page Styles */
 
 .contact-section {
-  padding: 5em 0;
+  padding: 5em 0 2em;
 }
 
 .contact-h3 {
@@ -172,4 +213,7 @@ footer {
   font-size: 13px;
   font-weight: 400;
   margin-top: 15px !important;
+  text-transform: uppercase;
+  letter-spacing: 1.32px;
 }
+
