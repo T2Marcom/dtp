@@ -233,17 +233,23 @@ background-color: #ebebeb;
   font-size: 17px;
 }
 
+
 .team-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: rgb(208,32,39);
-  background: linear-gradient(90deg, rgba(208,32,39,1) 0%, rgba(202,48,46,1) 12%, rgba(47,141,205,1) 50%, rgba(0,83,142,1) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  /* background: rgb(208,32,39);
+  background: linear-gradient(90deg, rgba(208,32,39,1) 0%, rgba(202,48,46,1) 12%, rgba(47,141,205,1) 50%, rgba(0,83,142,1) 100%); */
   transition: all .6s;
-  mix-blend-mode: lighten;
+  /* mix-blend-mode: darken; */
 }
 
+.collapsed .team-overlay {
+  opacity: 0.4;
+}
 
 
 .team-member {
@@ -299,10 +305,10 @@ letter-spacing: 0.55px;
   cursor: crosshair;
 }
 
-.team-link:hover .team-overlay {
+/* .team-link:hover .team-overlay {
   opacity: 0.3;
   
-}
+} */
 
 .about-intro p {
   margin-bottom: 15px;
