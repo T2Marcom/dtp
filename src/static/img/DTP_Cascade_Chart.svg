@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1385 788" style="enable-background:new 0 0 1385 788;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:none;stroke:#E41C1C;stroke-width:3;}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{fill:none;stroke:#377EB8;stroke-width:3;}
+	.st4{font-family:'AcuminPro-Regular';}
+	.st5{font-size:16px;}
+	.st6{fill:none;stroke:#000000;stroke-width:0.5;}
+	.st7{font-size:18px;}
+	.st8{font-family:'AcuminProCond-Regular';}
+	.st9{font-size:14px;}
+	.st10{font-size:20px;}
+	.st11{fill:none;stroke:#000000;stroke-linecap:square;}
+</style>
+<g>
+	<g id="Commands">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="95.5" y="18.5" width="1273.9" height="702"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Y_Cascade" class="st0">
+				<path class="st1" d="M277.5,708.1c60.7-52.6,121.3-105.2,182-140.4c60.7-35.2,121.3-53,182-66.1c60.7-13,121.3-21.3,182-28.9
+					c121.3-15.3,242.6-28.3,364-41.3"/>
+			</g>
+		</g>
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="95.5" y="18.5" width="1273.9" height="702"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Y_DTP" class="st2">
+				<path class="st3" d="M277.5,631.6c60.7-68.8,121.3-137.6,182-193.4c60.7-55.9,121.3-98.8,182-136c60.7-37.2,121.3-68.7,182-95.9
+					c60.7-27.2,121.3-50,182-69.6c60.7-19.6,121.3-36,182-52.4"/>
+			</g>
+		</g>
+		<g id="DTP_Cascade">
+			<g>
+				<text transform="matrix(1 0 0 1 386.783 225.865)" class="st4 st5">DTP Cascade</text>
+			</g>
+			<g>
+				<path class="st6" d="M484.9,221.6h108v92"/>
+				<path d="M592.9,316.6l4.5-7.8l-4.5,3.3l-4.5-3.3L592.9,316.6z"/>
+			</g>
+		</g>
+		<g id="Conventional_Cascade">
+			<g>
+				<text transform="matrix(1 0 0 1 953.874 363.046)" class="st4 st5">Conventional Cascade</text>
+			</g>
+			<g>
+				<path class="st6" d="M950.3,358.7h-113v101"/>
+				<path d="M837.3,462.7l4.5-7.8l-4.5,3.3l-4.5-3.3L837.3,462.7z"/>
+			</g>
+		</g>
+	</g>
+	<g id="Foreground">
+		<g id="Y_Axis">
+			<g transform="translate(14.0188,369.5) rotate(-90) translate(-14.0188,-369.5)">
+				<text transform="matrix(1 0 0 1 -108.6873 388.3818)" class="st4 st7">Maximum Temperature Difference, K</text>
+			</g>
+			<g id="Y_Labels">
+				<g>
+					<text transform="matrix(1 0 0 1 74.7523 724.804)" class="st8 st9">70</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 74.7523 683.51)" class="st8 st9">80</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 74.7523 642.215)" class="st8 st9">90</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 600.921)" class="st8 st9">100</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.9633 559.627)" class="st8 st9">110</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 518.333)" class="st8 st9">120</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 477.039)" class="st8 st9">130</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 435.745)" class="st8 st9">140</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 394.451)" class="st8 st9">150</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 353.157)" class="st8 st9">160</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 311.863)" class="st8 st9">170</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 270.568)" class="st8 st9">180</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 229.274)" class="st8 st9">190</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 187.98)" class="st8 st9">200</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 146.686)" class="st8 st9">210</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 105.392)" class="st8 st9">220</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 64.0978)" class="st8 st9">230</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 68.0785 22.8037)" class="st8 st9">240</text>
+				</g>
+			</g>
+			<path class="st6" d="M90.5,720.5h5 M90.5,679.2h5 M90.5,637.9h5 M90.5,596.6h5 M90.5,555.3h5 M90.5,514h5 M90.5,472.7h5
+				 M90.5,431.4h5 M90.5,390.1h5 M90.5,348.9h5 M90.5,307.6h5 M90.5,266.3h5 M90.5,225h5 M90.5,183.7h5 M90.5,142.4h5 M90.5,101.1h5
+				 M90.5,59.8h5 M90.5,18.5h5"/>
+		</g>
+		<g id="X_Axis">
+			<g>
+				<text transform="matrix(1 0 0 1 692.5001 768.6581)" class="st4 st7">Cascades, #</text>
+			</g>
+			<g>
+				<g>
+					<text transform="matrix(1 0 0 1 92.1631 736.69)" class="st8 st9">0</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 274.149 736.69)" class="st8 st9">1</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 456.135 736.69)" class="st8 st9">2</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 638.12 736.69)" class="st8 st9">3</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 820.106 736.69)" class="st8 st9">4</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 1002.0901 736.69)" class="st8 st9">5</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 1184.08 736.69)" class="st8 st9">6</text>
+				</g>
+				<g>
+					<text transform="matrix(1 0 0 1 1366.0601 736.69)" class="st8 st9">7</text>
+				</g>
+			</g>
+			<path class="st6" d="M95.5,725.5v-5 M277.5,725.5v-5 M459.5,725.5v-5 M641.5,725.5v-5 M823.4,725.5v-5 M1005.4,725.5v-5
+				 M1187.4,725.5v-5 M1369.4,725.5v-5"/>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 588.3668 35.2599)" class="st4 st10">DTP Versus Conventional Thermoelectrics</text>
+		</g>
+		<path class="st11" d="M95.5,18.5v702h1273.9"/>
+	</g>
+</g>
+</svg>
