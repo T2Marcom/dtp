@@ -5,8 +5,6 @@ items:
     url: "/our-technology"
   - text: Applications
     url: "/applications"
-  - text: Resources
-    url: "#"
   - text: About
     url: "/about"
   - text: Contact
