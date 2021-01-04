@@ -983,3 +983,7 @@ background:#f9f9f9;
 }
 /* Text color variations */
 .gray {color:#7d7d7d;}
+
+.enews-cta iframe {
+  height: 100px !important;
+}
