@@ -4,6 +4,11 @@
 
 /*Your Custom CSS Goes here*/
 
+a {
+  font-weight: 600;
+  color:#3d7cbc;
+}
+
 p, body {
   font-family: "Acumin Pro", sans-serif;
   margin-bottom: 10px;
