@@ -46,6 +46,13 @@ body pre[class*="language-"] {
   @apply bg-gray-800;
 }
 
+@media screen and (max-width: 497px) {
+  .logo-img {
+    width: 70% !important;
+  }
+}
+
+
 .dropdown-item:hover {
   background: #dbe1e5;
   color: #26247b;
@@ -183,7 +190,7 @@ padding: 5em 0;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  max-width: 50%;
+  max-width: 90%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -219,6 +226,32 @@ letter-spacing:0.28px; /*added*/
 .home-hero h1 span {
   font-weight: 700;
 }
+
+@media screen and (max-width: 1023px) {
+  .home-hero h1 {
+    font-size: 80px;
+  }
+} 
+
+@media screen and (max-width: 991px) {
+  .home-hero h1 {
+    font-size: 70px;
+  }
+} 
+
+@media screen and (max-width: 767px) {
+  .home-hero h1 {
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+} 
+
+@media screen and (max-width: 497px) {
+  .home-hero h1 {
+    font-size: 33px;
+    line-height: 1.5;
+  }
+} 
 
 .home-h2 {
   /* Style for "WE ARE DTP" */

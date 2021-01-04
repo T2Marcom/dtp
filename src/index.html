@@ -27,11 +27,11 @@ path: home
   <div class="container">
       <!-- <h2 class="about-intro-h2" style="text-align: center;"><span>Our Team</span></h2> -->
       <div class="row">
-        <div class="col-md-7 col-sm-7">
-			<p class="chart-title">DTP Versus Conventional Thermoelectrics</p>
+        <div class="col-md-7 col-sm-6 mb-4">
+			    <p class="chart-title">DTP Versus Conventional Thermoelectrics</p>
           <img class="img-fluid" src="/static/img/DTP_Cascade_Chart.png" alt="DTP Cascade Chart">
         </div>
-        <div class="col-md-5 col-sm-5 d-flex flex-column justify-content-center">
+        <div class="col-md-5 col-sm-6 d-flex flex-column justify-content-center">
           <h2 class="home-h2"><span>Revolutionary</span> Thermoelectrics</h2>
           <p style="color: #7d7d7d; font-size: 17px;">Conventional thermoelectric systems can already cool, heat or generate power—just not as well as our patented DTP thermoelectric technology. DTP stands for <strong>distributed transport properties</strong>, which describes functionally graded materials whose key thermoelectric properties vary spatially through the material. Thermoelectric systems based on DTP materials show significant gains in cooling and heating capacity and efficiency, opening up new possibilities for solid-state thermal management in electric vehicles, cold chain logistics, medical devices and many more applications.</p>
           <a class="btn btn-light mt-3" style="max-width: 400px" href="/our-technology">Learn more about DTP technology&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -49,10 +49,10 @@ path: home
     <div id="app">
       <h2 class="about-intro-h2" style="text-align: center;"><span>Applications</span></h2>
       <!-- Filters for Apps Here-->
-      <div class="filter-choices">
+      <div class="filter-choices d-sm-none d-none d-md-block">
         <span v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')">ALL</span>
         <span  v-bind:class="{ active: currentFilter === 'Automotive' }" v-on:click="setFilter('Automotive')">Automotive</span>
-		<span  v-bind:class="{ active: currentFilter === 'Medical' }" v-on:click="setFilter('Medical')">Medical</span>
+		    <span v-bind:class="{ active: currentFilter === 'Medical' }" v-on:click="setFilter('Medical')">Medical</span>
         <span  v-bind:class="{ active: currentFilter === 'Cold Chain' }" v-on:click="setFilter('Cold Chain')">Cold&nbsp;Chain</span>
         <span  v-bind:class="{ active: currentFilter === 'Electric Propulsion' }" v-on:click="setFilter('Electric Propulsion')">Electric&nbsp;Propulsion</span>
         <span  v-bind:class="{ active: currentFilter === 'Smart Buildings' }" v-on:click="setFilter('Smart Buildings')">Smart&nbsp;Buildings</span>
