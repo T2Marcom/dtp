@@ -48,7 +48,29 @@ body pre[class*="language-"] {
 
 @media screen and (max-width: 497px) {
   .logo-img {
-    width: 70% !important;
+    /* width: 70% !important; */
+    margin-left: 0 !important;
+    float: left;
+  }
+  .logo-div {
+    float: left;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-expand-lg>.container {
+    max-width: 100% !important;
+    width: 100% !important;
   }
 }
 
