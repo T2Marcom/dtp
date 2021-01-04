@@ -60,8 +60,16 @@ path: home
       </div>
       <div class="row">
         
-          <div v-if="currentFilter === project.category || currentFilter === 'ALL'" v-bind:key="project.category" v-for="project in projects" class="col-md-4 mb-3">
-            <a :href="'/applications' + '#' + project.link" ><img v-bind:src="project.image"></a>
+          <div v-if="currentFilter === project.category || currentFilter === 'ALL'" v-bind:key="project.category" v-for="project in projects" class="col-md-4 mb-3 applications-container">
+            <a :href="'/applications' + '#' + project.link" >
+              <div class="applications-overlay">
+                <div class="applications-content">
+                  <i class="fas fa-plus"></i>
+                  <h3 v-html="project.category"></h3>
+                </div>
+              </div>
+              <img v-bind:src="project.image">
+            </a>
           </div>
           
         
