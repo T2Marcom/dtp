@@ -250,28 +250,37 @@ letter-spacing:0.28px; /*added*/
 }
 
 @media screen and (max-width: 1023px) {
-  .home-hero h1 {
-    font-size: 80px;
+  .home-hero h1,
+  .technology-hero h1 {
+    font-size: 80px !important;
   }
 } 
 
 @media screen and (max-width: 991px) {
-  .home-hero h1 {
-    font-size: 70px;
+  .home-hero h1,
+  .technology-hero h1 {
+    font-size: 70px !important;
   }
 } 
 
 @media screen and (max-width: 767px) {
-  .home-hero h1 {
-    font-size: 8vw;
-    line-height: 8vw;
+  .home-hero h1,
+  .technology-hero h1 {
+    font-size: 8vw !important;
+    line-height: 8vw !important;
   }
 } 
 
 @media screen and (max-width: 497px) {
-  .home-hero h1 {
-    font-size: 33px;
-    line-height: 1.5;
+  .home-hero h1,
+  .technology-hero h1 {
+    font-size: 33px !important;
+    line-height: 1.5 !important;
+  }
+
+  .home-hero,
+  .technology-hero {
+    padding: 4em 1.7em !important;
   }
 } 
 
