@@ -46,18 +46,28 @@
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       {% if navigation.items %}
-                      <ul style="border-right: 3px solid #afafaf" class="navbar-nav ml-auto mr-4">
+                      <ul class="navbar-nav ml-auto mr-4">
                         {% for item in navigation.items %}
                         <li class="nav-item active">
                           <a class="nav-link" href="{{ item.url }}">{{ item.text }} <span class="sr-only">(current)</span></a>
                         </li>
                         {% endfor %}
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                             
+                            </div>
+                          </li> -->
                         
                       </ul>
                       {% endif %}
-                      <div>
+                      <!-- <div>
                         <i class="fas fa-search"></i>
-                      </div>
+                      </div> -->
                       <!-- <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
