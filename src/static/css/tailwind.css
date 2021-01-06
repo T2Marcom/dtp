@@ -273,21 +273,27 @@ letter-spacing:0.28px; /*added*/
 
 @media screen and (max-width: 1023px) {
   .home-hero h1,
-  .technology-hero h1 {
+  .technology-hero h1,
+  .applications-hero h1,
+  .about-hero h1 {
     font-size: 80px !important;
   }
 } 
 
 @media screen and (max-width: 991px) {
   .home-hero h1,
-  .technology-hero h1 {
+  .technology-hero h1,
+  .applications-hero h1,
+  .about-hero h1 {
     font-size: 70px !important;
   }
 } 
 
 @media screen and (max-width: 767px) {
   .home-hero h1,
-  .technology-hero h1 {
+  .technology-hero h1,
+  .applications-hero h1,
+  .about-hero h1 {
     font-size: 8vw !important;
     line-height: 8vw !important;
   }
@@ -295,12 +301,17 @@ letter-spacing:0.28px; /*added*/
 
 @media screen and (max-width: 497px) {
   .home-hero h1,
-  .technology-hero h1 {
+  .technology-hero h1,
+  .applications-hero h1,
+  .about-hero h1 {
     /* font-size: 33px !important; */
     font-size: 8vw !important;
     line-height: 1.5 !important;
   }
 
+  .team-member h4 {
+    text-align: center;
+  }
   
 
   .about-intro-h2 {
@@ -308,7 +319,8 @@ letter-spacing:0.28px; /*added*/
   }
 
   .home-hero,
-  .technology-hero {
+  .technology-hero,
+  .applications-hero {
     padding: 4em 0em !important;
   }
 } 
@@ -538,7 +550,7 @@ letter-spacing: 0.55px;*/
 }
 
 .about-hero {
-  padding: 4em 5.5em;
+  padding: 4em 0em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -906,7 +918,7 @@ font-size:16pt
 /* Our Technology */
 
 .technology-hero {
-  padding: 4em 5.5em;
+  padding: 4em 0em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -959,7 +971,7 @@ letter-spacing: 0.95px;
 /* Applications */
 
 .applications-hero {
-  padding: 4em 5.5em;
+  padding: 4em 0em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
