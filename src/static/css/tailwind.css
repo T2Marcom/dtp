@@ -163,6 +163,13 @@ text-align: left;
 text-transform: uppercase;
 }
 
+@media screen and (max-width: 497px) {
+  .enews-h2,
+  .applications-h2 {
+    font-size: 28px !important;
+  }
+}
+
 .applications-section {
 padding: 5em 0;
 }
@@ -184,6 +191,16 @@ padding: 5em 0;
   background-color: rgba(40, 40, 40, 0.75);
   opacity: 0;
   transition: all .3s;
+}
+
+.dtp-section-padding {
+  padding:0px 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .dtp-section-padding {
+    padding: 0;
+  }
 }
 
 .applications-overlay:hover {
@@ -279,13 +296,20 @@ letter-spacing:0.28px; /*added*/
 @media screen and (max-width: 497px) {
   .home-hero h1,
   .technology-hero h1 {
-    font-size: 33px !important;
+    /* font-size: 33px !important; */
+    font-size: 8vw !important;
     line-height: 1.5 !important;
+  }
+
+  
+
+  .about-intro-h2 {
+    font-size: 28px !important;
   }
 
   .home-hero,
   .technology-hero {
-    padding: 4em 1.7em !important;
+    padding: 4em 0em !important;
   }
 } 
 
@@ -316,6 +340,12 @@ letter-spacing:0.28px; /*added*/
   font-weight: 500;
 	margin-top:20px;/*added*/
 	padding: 18px 39px 17px 38px;
+}
+
+@media screen and (max-width: 497px) {
+  .btn-light {
+    padding: 18px 18px 17px 18px;
+  }
 }
 
 .home-h2 span {
