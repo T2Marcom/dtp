@@ -275,7 +275,8 @@ letter-spacing:0.28px; /*added*/
   .home-hero h1,
   .technology-hero h1,
   .applications-hero h1,
-  .about-hero h1 {
+  .about-hero h1,
+  .contact-hero h1 {
     font-size: 80px !important;
   }
 } 
@@ -284,7 +285,8 @@ letter-spacing:0.28px; /*added*/
   .home-hero h1,
   .technology-hero h1,
   .applications-hero h1,
-  .about-hero h1 {
+  .about-hero h1,
+  .contact-hero h1 {
     font-size: 70px !important;
   }
 } 
@@ -293,7 +295,8 @@ letter-spacing:0.28px; /*added*/
   .home-hero h1,
   .technology-hero h1,
   .applications-hero h1,
-  .about-hero h1 {
+  .about-hero h1,
+  .contact-hero h1 {
     font-size: 8vw !important;
     line-height: 8vw !important;
   }
@@ -303,7 +306,8 @@ letter-spacing:0.28px; /*added*/
   .home-hero h1,
   .technology-hero h1,
   .applications-hero h1,
-  .about-hero h1 {
+  .about-hero h1,
+  .contact-hero h1 {
     /* font-size: 33px !important; */
     font-size: 8vw !important;
     line-height: 1.5 !important;
@@ -322,7 +326,8 @@ letter-spacing:0.28px; /*added*/
 
   .home-hero,
   .technology-hero,
-  .applications-hero {
+  .applications-hero,
+  .contact-hero {
     padding: 4em 0em !important;
   }
 } 
@@ -590,7 +595,7 @@ letter-spacing: 0.55px;*/
 /*Contact Page */
 
 .contact-hero {
-  padding: 4em 5.5em;
+  padding: 4em 0em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1035,4 +1040,8 @@ background:#f9f9f9;
 
 .enews-cta iframe {
   height: 100px !important;
+}
+
+.col-md-6 iframe {
+  height: auto !important;
 }
