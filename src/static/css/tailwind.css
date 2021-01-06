@@ -309,10 +309,12 @@ letter-spacing:0.28px; /*added*/
     line-height: 1.5 !important;
   }
 
-  .team-member h4 {
-    text-align: center;
+  .team-member h4,
+  .team-member h5 {
+    text-align: center !important;
   }
-  
+
+ 
 
   .about-intro-h2 {
     font-size: 28px !important;
