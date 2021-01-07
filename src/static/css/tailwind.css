@@ -10,7 +10,7 @@ a {
 }
 
 p, body {
-  font-family: "Acumin Pro", sans-serif;
+  font-family: acumin-pro, sans-serif;
   margin-bottom: 10px;
 }
 /*paragraph styles*/
@@ -246,7 +246,7 @@ padding: 5em 0;
 
 .filter-choices span {
   color: #898989;
-  font-family: "Acumin Pro Condensed", sans-serif;
+  font-family: acumin-pro-condensed, sans-serif;
   font-size: 19px;
   font-weight: 500;
   text-transform: uppercase;
@@ -258,7 +258,7 @@ padding: 5em 0;
   /* Style for "Lorem ipsu" */
   width: 50%;
   color: #ffffff;
-  font-family: "Acumin Pro";
+  font-family: acumin-pro;
   font-size: 30px; /*tweaked*/
   font-weight: 500;
   font-style: italic;
@@ -353,7 +353,7 @@ letter-spacing:0.28px; /*added*/
   border: 2px solid #1b3557;
 	border-radius:0px;/*added*/
   color: #1b3557;
-  font-family: "Acumin Pro", sans-serif;
+  font-family: acumin-pro, sans-serif;
   text-transform: uppercase;
 	font-size:12px;/*added changed from mockup*/
   font-weight: 500;
@@ -379,7 +379,7 @@ letter-spacing:0.28px; /*added*/
 .header-nav p {
   /* Style for "sales@dtpt" */
 
-font-family: "Acumin Pro";
+font-family: acumin-pro;
 font-size: 12px;
 font-weight: 400;
 font-style: normal;
@@ -494,7 +494,7 @@ letter-spacing: 0.72px;
 .team-member h5 {
 /* Style for "Job Position(TK)" */
 color: whitesmoke;/*#b9d2e4;*/
-font-family: "Acumin Pro";
+font-family: acumin-pro;
 font-size: 14px;/*13px;*/
 letter-spacing: 0.55px;
 font-weight: 400;
@@ -517,7 +517,7 @@ letter-spacing: 0.55px;*/
 .about-intro p {
   margin-bottom: 15px;
   color: #636363;
-  font-family: "Acumin Pro";
+  font-family: acumin-pro;
   font-size: 21px;
   font-weight: 400;
   letter-spacing: 0.21px;
@@ -650,7 +650,7 @@ z-index: 0;
 .white-bg p {
     /* Style for "Lorem ipsu" */
     color: #a5a5a5;
-    font-family: "Acumin Pro";
+    font-family: acumin-pro;
     font-size: 17px;
     font-weight: 400;
 }
@@ -706,7 +706,7 @@ footer {
   background-color: #1b3557;
   color: white;
   font-weight: 300;
-  font-family: "acumin pro"
+  font-family: acumin-pro
 }
 
 /* Contact Page Styles */
@@ -771,7 +771,7 @@ footer {
 .eyebrow-title-contact {
   /* Style for "Contact Us" */
   color: #a5a5a5;
-  font-family: "Acumin Pro";
+  font-family: acumin-pro;
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -782,7 +782,7 @@ footer {
 .contact-section p {
   /* Style for "Lorem ipsu" */
   color: #a5a5a5;
-  font-family: "Acumin Pro";
+  font-family: acumin-pro;
   font-size: 17px;
   font-weight: 400;
 }
@@ -799,7 +799,7 @@ footer {
 .sub-title-contact {
   /* Style for "Directions" */
   color: #1b3557;
-  font-family: "Acumin Pro";
+  font-family: acumin-pro;
   font-size: 13px;
   font-weight: 400;
   margin-top: 15px !important;
@@ -970,7 +970,7 @@ text-transform: uppercase;
 letter-spacing: 0.95px;
 }
 .chart-title {
-	font-family: "Acumin Pro", sans-serif;
+	font-family: acumin-pro, sans-serif;
 	font-weight:600;
 	color:#1b3557;
 	font-size:20px;
