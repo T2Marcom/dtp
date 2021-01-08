@@ -1049,7 +1049,14 @@ background:#f9f9f9;
 }
 
 .col-md-6 iframe {
-  height: auto !important;
+  height: 400px !important;
+}
+
+@media screen and (max-width: 497px) {
+  .col-md-6 iframe {
+    height: 700px !important;
+  }
+  
 }
 
 .section-chevron {
