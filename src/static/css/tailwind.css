@@ -1073,3 +1073,7 @@ background:#f9f9f9;
   font-size: 24px;
   padding: 10px;
 }
+
+.automotiveDescrip {
+  display: block !important;
+}
