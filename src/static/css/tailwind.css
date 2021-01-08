@@ -493,11 +493,11 @@ background-color: #f9f9f9;
   /* Style for "FIRSTNAME" */
 color: #ffffff;
 font-family: Montserrat;
-font-size: 17px;
+font-size: 15px;
 font-weight: 700;
 text-align: left;
 text-transform: uppercase;
-letter-spacing: 0.72px;
+/* letter-spacing: 0.72px; */
 }
 
 .team-member h5 {
