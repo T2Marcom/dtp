@@ -26,6 +26,10 @@ p {
   text-transform: uppercase;
 }
 
+.collapse.show {
+  z-index: 1;
+}
+
 /* .dropdown-item:hover {
   font-weight: normal !important;
   text-shadow: 0px 1px 0px rgba(38, 36, 123, 1);
