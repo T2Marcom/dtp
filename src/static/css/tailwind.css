@@ -21,6 +21,16 @@ p, body {
 p {
   margin-bottom: 10px;
 }
+
+.dropdown-item {
+  text-transform: uppercase;
+}
+
+/* .dropdown-item:hover {
+  font-weight: normal !important;
+  text-shadow: 0px 1px 0px rgba(38, 36, 123, 1);
+} */
+
 /*paragraph styles*/
 .list-head {
 	font-weight:600;

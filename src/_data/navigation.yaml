@@ -5,6 +5,19 @@ items:
     url: "/our-technology"
   - text: Applications
     url: "/applications"
+    sub:
+      - text: Automotive
+        url: "/applications#automotive"
+      - text: Medical
+        url: "/applications#medical"
+      - text: Cold Chain Logistics
+        url: "/applications#cold-chain"
+      - text: Electric Propulsion
+        url: "/applications#electric-propulsion"
+      - text: Smart Buildings
+        url: "/applications#smart-buildings"
+      - text: Electronic and Opto-Electronics
+        url: "/applications#electronics"
   - text: About
     url: "/about"
   - text: Contact
