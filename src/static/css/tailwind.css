@@ -23,6 +23,12 @@ p {
 }
 
 .dropdown-item {
+  color: #464646;
+  font-family: "acumin-pro-semi-condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
   text-transform: uppercase;
 }
 
