@@ -1,0 +1,183 @@
+---
+layout: default
+title: Newsletter Signup
+path: home
+---
+<style>
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+    .enews-intro {
+        background: white;
+        padding: 4em 0 4em;
+    }
+
+    .enews-intro p {
+        margin-bottom: 15px;
+        color: #636363;
+        font-family: acumin-pro;
+        font-size: 21px;
+        font-weight: 400;
+        letter-spacing: 0.21px;
+    }
+    .enews-section {
+        background-image: linear-gradient(0deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%), url('/static/img/contact-hero.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        
+        padding: 5em 0 0em;
+    }
+</style>
+<div class="contact-hero d-flex">
+  <div class="container align-self-center">
+    <h1>Newsletter Signup</h1>
+  </div>
+</div>
+<div class="gradient-bar"></div>
+<!-- <section class="about-intro">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-5">
+                <p>
+                    Sign up for our newsletter to receive monthly updates on our DTP's revolutionary thermoelectric technology.
+                    We’ll send only new technical information—not spam!
+                </p>
+                <p>
+                    By subscribing you agree to receive technology news and updates from DTP Thermoelectrics. For detailed information, please read our privacy policy.
+                </p>
+            </div>
+            <div class="col-7">
+                <script type="text/javascript" src="https://form.jotform.com/jsform/203627673178160"></script>
+            </div>
+        </div>
+       
+        
+    </div>
+  </section> -->
+  <section class="enews-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 offset-md-3">
+            <p>
+                Sign up for our newsletter to receive monthly updates on our DTP's revolutionary thermoelectric technology.
+                We’ll send only new technical information—not spam!
+            <br>
+            <br>
+                By subscribing you agree to receive technology news and updates from DTP Thermoelectrics. For detailed information, please read our <a href="/privacy-policy">privacy policy</a>.
+            </p>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+  <section class="enews-section">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <!--newsletter signup jotform begin -->
+            <iframe
+                id="JotFormIFrame-210275968540157"
+                title="DTP Newsletter Signup Webpage"
+                onload="window.parent.scrollTo(0,0)"
+                allowtransparency="true"
+                allowfullscreen="true"
+                allow="geolocation; microphone; camera"
+                src="https://form.jotform.com/210275968540157"
+                frameborder="0"
+                style="
+                min-width: 100%;
+                height:539px;
+                border:none;"
+                scrolling="no"
+            >
+            </iframe>
+            <script type="text/javascript">
+                var ifr = document.getElementById("JotFormIFrame-210275968540157");
+                if (ifr) {
+                var src = ifr.src;
+                var iframeParams = [];
+                if (window.location.href && window.location.href.indexOf("?") > -1) {
+                    iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+                }
+                if (src && src.indexOf("?") > -1) {
+                    iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+                    src = src.substr(0, src.indexOf("?"))
+                }
+                iframeParams.push("isIframeEmbed=1");
+                ifr.src = src + "?" + iframeParams.join('&');
+                }
+                window.handleIFrameMessage = function(e) {
+                if (typeof e.data === 'object') { return; }
+                var args = e.data.split(":");
+                if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+                if (!iframe) { return; }
+                switch (args[0]) {
+                    case "scrollIntoView":
+                    iframe.scrollIntoView();
+                    break;
+                    case "setHeight":
+                    iframe.style.height = args[1] + "px";
+                    break;
+                    case "collapseErrorPage":
+                    if (iframe.clientHeight > window.innerHeight) {
+                        iframe.style.height = window.innerHeight + "px";
+                    }
+                    break;
+                    case "reloadPage":
+                    window.location.reload();
+                    break;
+                    case "loadScript":
+                    var src = args[1];
+                    if (args.length > 3) {
+                        src = args[1] + ':' + args[2];
+                    }
+                    var script = document.createElement('script');
+                    script.src = src;
+                    script.type = 'text/javascript';
+                    document.body.appendChild(script);
+                    break;
+                    case "exitFullscreen":
+                    if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+                    else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+                    else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+                    else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+                    else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+                    break;
+                }
+                var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+                if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+                    var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+                    iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+                }
+                };
+                if (window.addEventListener) {
+                window.addEventListener("message", handleIFrameMessage, false);
+                } else if (window.attachEvent) {
+                window.attachEvent("onmessage", handleIFrameMessage);
+                }
+            </script>
+        </div>
+      </div>
+  </section>
+<div class="gradient-bar"></div>
+
+<!-- <div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+  <h1>
+    Welcome to
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      {{title}}
+    </strong>
+  </h1>
+
+  <p>
+    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
+    Starter Template. Get Started by editing.
+    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
+  </p>
+
+  {% include "./_includes/partials/content.html" %}
+</div> -->
