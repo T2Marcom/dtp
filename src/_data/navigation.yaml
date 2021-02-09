@@ -18,6 +18,11 @@ items:
         url: "/applications#smart-buildings"
       - text: Electronic and Opto-Electronics
         url: "/applications#electronics"
+  - text: Resources
+    url: ""
+    sub:
+      - text: Events
+        url: "/events"
   - text: About
     url: "/about"
   - text: Contact
