@@ -23,6 +23,10 @@ items:
     sub:
       - text: Events
         url: "/events"
+      - text: Technical Articles
+        url: "/technical-articles"
+      - text: Presentations
+        url: "/presentations"
   - text: About
     url: "/about"
   - text: Contact
