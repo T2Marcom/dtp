@@ -21,13 +21,16 @@ items:
   - text: Resources
     url: ""
     sub:
-      - text: Events
-        url: "/events"
       - text: Technical Articles
         url: "/technical-articles"
       - text: Presentations
         url: "/presentations"
   - text: About
     url: "/about"
+    sub:
+      - text: About DTP
+        url: "/about"
+      - text: Events
+        url: "/events"
   - text: Contact
     url: "/contact-us"
