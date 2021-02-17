@@ -64,13 +64,35 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-/* h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+h1 {
+  @apply text-5xl tracking-tighter mb-2;
+}
+
+h2 {
+  @apply text-4xl tracking-tighter mb-2;
 }
 
 h3 {
-  @apply text-2xl font-bold mb-3;
-} */
+  @apply text-3xl font-bold mb-2;
+} 
+
+h4 {
+  @apply text-2xl font-bold mb-2;
+}
+
+h5 {
+  @apply text-xl font-bold mb-2;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 40px;
+}
 
 /* Syntax Highlighting*/
 
@@ -1137,3 +1159,12 @@ background:#f9f9f9;
   display: block !important;
 }
 
+/* Blog */
+
+.blog-title a {
+  color: #1b3557;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+}
