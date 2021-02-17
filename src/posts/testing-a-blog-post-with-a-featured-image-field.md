@@ -1,13 +1,14 @@
 ---
-title: Testing a Blog With Featured Image New Field
-Featured Image: /static/img/DTP_Automotive_377905344.jpg
+title: Testing A Blog Post With a Featured Image Field
+Featured Image: /static/img/DTP_ColdChain_295581314.jpg
+featimg: /static/img/DTP_ColdChain_295581314.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
   felis eu sapien fermentum interdum non ac neque. Vivamus sed pretium eros.
   Suspendisse nec lacinia lacus. Nullam id mollis eros, ut mollis ex. Integer id
   mauris ipsum. Ut et mattis nisi. Integer laoreet urna mi, id lacinia mi
   hendrerit in.
 author: DTP Thermoelectrics
-date: 2021-02-17T16:36:22.392Z
+date: 2021-02-17T16:52:21.695Z
 tags:
   - Tags
 ---
