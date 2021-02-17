@@ -21,6 +21,8 @@ items:
   - text: Resources
     url: ""
     sub:
+      - text: Blog
+        url: "/blog"
       - text: Technical Articles
         url: "/technical-articles"
       - text: Presentations
