@@ -40,8 +40,28 @@ layout: default
         </div>
         
         <div class="col-lg-3">
-            <div style="height: 800px; background-color: #fafafa; color: #d2d2d2; padding: 3em;" class="sidebar">
-                Sidebar
+            <div style="background-color: #fafafa; color: #d2d2d2; padding: 3em;" class="sidebar">
+                <h4 style="border-color: #e7e7e7" class="border-b pb-2 mb-2">Recent Posts</h4>
+                {% set postslist = collections.post %}
+
+                
+            
+                {% for post in postslist | reverse %}
+                    
+                        <h5 class="font-bold text-gray-900 mb-3">
+                            <a href="{{ post.url | url }}">
+                                {% if post.data.title %}
+                                    {{ post.data.title }}
+                                {% else %}
+                                    Untitled
+                                {% endif %}
+                            </a>
+                        </h5>
+                        
+                        
+            
+                  
+                {% endfor %}
             </div>
         </div>
     </div>
