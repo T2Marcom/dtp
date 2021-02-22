@@ -34,5 +34,7 @@ items:
         url: "/about"
       - text: Events
         url: "/events"
+      - text: Press releases
+        url: "/press-releases"
   - text: Contact
     url: "/contact-us"
