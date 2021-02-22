@@ -14,7 +14,7 @@ title: Technical Blog
                 {% set postslist = collections.post %}
             
                 {% for post in postslist | reverse %}
-                    <article style="border-bottom: 1px solid #e7e7e7" class="my-8 pb-5 ">
+                    <article style="border-bottom: 1px solid #e7e7e7" class="my-8 pb-3 ">
                         <h2 class="blog-title font-bold text-3xl text-gray-900 mb-2">
                             <a href="{{ post.url | url }}">
                                 {% if post.data.title %}
