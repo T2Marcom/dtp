@@ -30,10 +30,10 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: ["Blog", "ScienceDirect"]
   - label: "Press Release"
     name: "pressrelease"
-    folder: "src/press-releases"
+    folder: "src/press"
     create: true
     editor:
       preview: false
@@ -49,7 +49,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: ["Blog", "ScienceDirect"]
   - label: "Settings"
     name: "settings"
     editor:
