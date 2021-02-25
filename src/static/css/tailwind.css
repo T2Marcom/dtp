@@ -1166,8 +1166,9 @@ background:#f9f9f9;
   color: #1b3557;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
-  font-style: italic;
+  /* text-transform: initial; */
+  /* font-style: italic; */
+  letter-spacing: 0.1px;
 }
 
 ul  li {
