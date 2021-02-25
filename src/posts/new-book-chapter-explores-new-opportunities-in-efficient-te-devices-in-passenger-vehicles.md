@@ -1,7 +1,7 @@
 ---
 title: New Book Chapter Explores New Opportunities in Efficient TE Devices in
   Passenger Vehicles
-featimg: /static/img/3-s2.0-C20180029461-cov150h.gif
+featimg: /static/img/adobestock_119809313_preview-1-.jpeg
 description: "We’re excited to announce that our Chief Technology Officer, Doug
   Crane, PhD, recently contributed a chapter, “Thermoelectric Applications in
   Passenger Vehicles,” to a new book entitled, Thermoelectric Energy Conversion:
@@ -28,9 +28,11 @@ Cost-effectiveness continues to limit the number of applications of TE devices. 
 
 **Improving Thermal Management in ICE and Electric Vehicles**
 
+![inline](/static/img/3-s2.0-C20180029461-cov150h.gif)
+
 At DTP Thermoelectrics, we offer a solution to many of the challenges Dr. Crane identifies and explores in his book chapter in the form of our patented distributed transport properties (DTP) approach. This technology promises to bring thermal management improvements to both ICE and electric vehicles:
 
 * In ICE vehicles, DTP TE devices can be incorporated as a sub-cooler into conventional vapor compression HVAC systems. The resulting hybrid HVAC systems can reach new levels of efficiency and offer more cooling capacity than similarly-sized conventional automotive HVAC systems.
 * In electric vehicles, a DTP TE system can provide a holistic solution to all the vehicle's thermal management needs—from efficient cooling and heating of passenger cabins to next-generation battery thermal management solutions.
 
-To explore Dr. Crane’s latest book chapter, please click [here](https://www.sciencedirect.com/science/article/pii/B9780128185353000244#:~:text=Thermoelectrics%20can%20and%20have%20contributed,vehicle%20into%20usable%20electric%20power.).
+To explore Dr. Crane’s latest book chapter, please click <a href="https://www.sciencedirect.com/science/article/pii/B9780128185353000244#:~:text=Thermoelectrics%20can%20and%20have%20contributed,vehicle%20into%20usable%20electric%20power." target="_blank">here</a>.

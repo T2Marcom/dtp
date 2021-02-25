@@ -1169,3 +1169,13 @@ background:#f9f9f9;
   text-transform: uppercase;
   font-style: italic;
 }
+
+ul  li {
+  padding: 0 !important;
+}
+
+img[alt="inline"] {
+  float: right;
+  margin: 0 0 0 20px !important;
+  width: 200px;
+}
