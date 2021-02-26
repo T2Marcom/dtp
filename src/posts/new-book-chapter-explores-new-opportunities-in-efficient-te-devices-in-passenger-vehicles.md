@@ -1,7 +1,7 @@
 ---
 title: New Book Chapter Explores New Opportunities in Efficient TE Devices in
   Passenger Vehicles
-featimg: /static/img/adobestock_119809313_preview-1-.jpeg
+featimg: /static/img/dtp_119809313_bookchapter-1-.jpeg
 description: "We’re excited to announce that our Chief Technology Officer, Doug
   Crane, PhD, recently contributed a chapter, “Thermoelectric Applications in
   Passenger Vehicles,” to a new book entitled, Thermoelectric Energy Conversion:
