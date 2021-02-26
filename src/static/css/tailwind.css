@@ -336,7 +336,8 @@ letter-spacing:0.28px; /*added*/
   .technology-hero h1,
   .applications-hero h1,
   .about-hero h1,
-  .contact-hero h1 {
+  .contact-hero h1,
+  .resources-hero h1 {
     font-size: 70px !important;
   }
 } 
@@ -346,7 +347,8 @@ letter-spacing:0.28px; /*added*/
   .technology-hero h1,
   .applications-hero h1,
   .about-hero h1,
-  .contact-hero h1 {
+  .contact-hero h1,
+  .resources-hero h1 {
     font-size: 8vw !important;
     line-height: 8vw !important;
   }
@@ -357,7 +359,8 @@ letter-spacing:0.28px; /*added*/
   .technology-hero h1,
   .applications-hero h1,
   .about-hero h1,
-  .contact-hero h1 {
+  .contact-hero h1,
+  .resources-hero h1 {
     /* font-size: 33px !important; */
     font-size: 8vw !important;
     line-height: 1.5 !important;
