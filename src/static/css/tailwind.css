@@ -1180,3 +1180,7 @@ img[alt="inline"] {
   margin: 0 0 0 20px !important;
   width: 200px;
 }
+
+article p {
+  line-height: 1.45;
+}
