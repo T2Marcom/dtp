@@ -580,7 +580,7 @@ letter-spacing: 0.55px;*/
 
 .what-is-dtp-section p {
   font-family: acumin-pro;
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: 300;
   letter-spacing: 0.21px;
 }
