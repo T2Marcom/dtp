@@ -573,8 +573,15 @@ letter-spacing: 0.55px;*/
   margin-bottom: 15px;
   color: #636363;
   font-family: acumin-pro;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
+  letter-spacing: 0.21px;
+}
+
+.what-is-dtp-section p {
+  font-family: acumin-pro;
+  font-size: 20px;
+  font-weight: 300;
   letter-spacing: 0.21px;
 }
 
@@ -1186,4 +1193,10 @@ img[alt="inline"] {
 
 article p {
   line-height: 1.45;
+}
+
+.what-is-dtp-section {
+  padding-bottom: 120px;
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(144,176,201,1) 45%, rgba(62,125,188,1) 69%, rgba(23,60,105,1) 100%);
 }
