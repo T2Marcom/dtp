@@ -68,7 +68,7 @@ path: home
                   <h3 v-html="project.category"></h3>
                 </div>
               </div>
-              <img v-bind:src="project.image">
+              <img :alt="project.category" v-bind:src="project.image">
             </a>
           </div>
           

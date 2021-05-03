@@ -30,9 +30,9 @@ title: Technical Blog
                             <div class="col-md-4">
                                 <a href="{{ post.url | url }}">
                                     {% if post.data.featimg %}
-                                        <img class="mt-2" src="{{ post.data.featimg }}">
+                                        <img alt="{{ post.data.title }}" class="mt-2" src="{{ post.data.featimg }}">
                                     {% else %}
-                                        <img class="mt-2" style="padding: 50px 10px; border: 1px solid #e7e7e7" src="https://dtpthermoelectrics.com/static/img/DTPThermoelectrics_Logo2020_Blue.png.png">
+                                        <img alt="{{ post.data.title }}" class="mt-2" style="padding: 50px 10px; border: 1px solid #e7e7e7" src="https://dtpthermoelectrics.com/static/img/DTPThermoelectrics_Logo2020_Blue.png.png">
                                     <!-- path: {{ post.data.featimg }} -->
                                     {% endif %}
                                 </a>
